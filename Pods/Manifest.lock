@@ -1,0 +1,65 @@
+PODS:
+  - AFNetworking (2.5.3):
+    - AFNetworking/NSURLConnection (= 2.5.3)
+    - AFNetworking/NSURLSession (= 2.5.3)
+    - AFNetworking/Reachability (= 2.5.3)
+    - AFNetworking/Security (= 2.5.3)
+    - AFNetworking/Serialization (= 2.5.3)
+    - AFNetworking/UIKit (= 2.5.3)
+  - AFNetworking/NSURLConnection (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.3)
+  - AFNetworking/Security (2.5.3)
+  - AFNetworking/Serialization (2.5.3)
+  - AFNetworking/UIKit (2.5.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - ELCImagePickerController (0.2.0)
+  - JSONModel (1.0.2)
+  - RESideMenu (4.0.7)
+  - RMPickerViewController (1.3.3)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+  - SVProgressHUD (1.1.3)
+  - TPKeyboardAvoiding (1.2.6)
+  - UMengAnalytics (3.1.8)
+  - UMengAnalytics-NO-IDFA (3.1.11)
+  - UMengMessage (1.1.0.2)
+  - UMengSocial (4.2.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5.0)
+  - ELCImagePickerController (~> 0.2.0)
+  - JSONModel
+  - RESideMenu (~> 4.0.7)
+  - RMPickerViewController (~> 1.3.1)
+  - SDWebImage (~> 3.7.1)
+  - SVProgressHUD (~> 1.1.1)
+  - TPKeyboardAvoiding (~> 1.2.4)
+  - UMengAnalytics (~> 3.1.8)
+  - UMengAnalytics-NO-IDFA (~> 3.1.11)
+  - UMengMessage (~> 1.1.0.2)
+  - UMengSocial (~> 4.2.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: e1d86c2a96bb5d2e7408da36149806706ee122fe
+  ELCImagePickerController: b1b7084434a7d49f2cfc916bde1f3ba353d38de9
+  JSONModel: 6ffcb4ffa3659c9e9a2e5d45d6c7705bab187c03
+  RESideMenu: f24c508404b49c667344c54aba7e590883533958
+  RMPickerViewController: 1a64e211e86ac3d961214c9c376de7c0241ac25b
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  TPKeyboardAvoiding: ee4dd35e3bb7bb64bfbda47e7cc9ba872ff10f77
+  UMengAnalytics: fe0fa30f2686541eda3ae778d036cc368bc1abd4
+  UMengAnalytics-NO-IDFA: 113fee70a03af45c89b60b8f5b15cf1accfebeab
+  UMengMessage: 48fac77da8a71729c3d9c40eed16151d8917d9b3
+  UMengSocial: c608958b8aec7831d2a0964b62fc4cd1ed0bd9c3
+
+COCOAPODS: 0.35.0

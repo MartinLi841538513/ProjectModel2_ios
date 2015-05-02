@@ -1,0 +1,52 @@
+//
+//  PrefixHeader.pch
+//  MianFeiStudy
+//
+//  Created by Gao Huang on 15/5/1.
+//  Copyright (c) 2015年 Martin. All rights reserved.
+//
+
+#ifndef MianFeiStudy_PrefixHeader_pch
+#define MianFeiStudy_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+
+#define IOS_VERSION [[[UIDevice currentDevice] systemVersion] floatValue]
+#define DeviceFrame [UIScreen mainScreen].bounds
+#define StatusBarFrame [[UIApplication sharedApplication] statusBarFrame]
+#define NavigationBarFrame self.navigationController.navigationBar.frame
+#define TabBarFrame self.tabBarController.tabBar.frame
+#define BaiDuMapAPK @"wuNUu7yiWF7snoYySQ1pG8yU"
+#define BaiDuApi @"http://api.map.baidu.com/geoconv/v1/?coords=%f,%f&from=1&to=5&ak=FD94c641fb4e80ad87865b1df9dbfffb"
+
+
+#define UMengKEY @"540a742dfd98c5505f013088"
+#define WeiXinAppID @"wx5189b838a4d16d8b"
+#define WeiXinAppSecret @"421410d78db22d85d7f811938ff3d172"
+#define QQAppID @"1103541927"
+#define QQAppKEY @"1USiSoOIDP1GFPR7"
+#define SinaAppKEY @"274015286"
+//#define BmobAppID @"29b7a91994cc161eff47ca008f83356d"
+#define BmobAppID @"019f3ec90485e83c760b66c08c8704a1"
+#define AppDownLoadURL @"https://itunes.apple.com/cn/app/e-xiao-qu/id914487546?mt=8"
+#define ItemHeight 40.0
+#define kMode_Development             @"00"//正式上线的时候要改为00千万要记住
+//#define kResult           @"支付结果：%@"    //支付结果
+#define DEFAULT_VOID_COLOR [UIColor whiteColor]
+#define DEGREES_TO_RADIANS(angle) ((angle)/180.0 *M_PI)
+
+#import "SharedAction.h"
+#import "SharedData.h"
+#import "UserInfo.h"
+#import "SVProgressHUD.h"
+typedef void (^completion)(BOOL completed, NSDictionary *data);
+typedef void (^done)(BOOL completed,id object);
+typedef void (^doneWithObject)(id object);
+typedef void (^doneWithObjectAndStatus)(int status,id object);
+typedef void (^finished)(NSDictionary *info);
+
+
+#define MainGreenColor [UIColor colorWithRed:64.0/255 green:198.0/255 blue:119.0/255 alpha:1]

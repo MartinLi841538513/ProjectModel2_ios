@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="zYQ-Oh-OAk">
+            <objects>
+                <navigationController id="T7t-Uu-Ppa" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="37g-qU-4N4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Wky-TK-nDu" kind="relationship" relationship="rootViewController" id="EUI-cy-dRb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C2t-bd-FBG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-712.5" y="396"/>
+        </scene>
+        <!--登陆-->
+        <scene sceneID="dpS-u4-dcS">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" id="Wky-TK-nDu" customClass="LoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="njP-8A-s5x"/>
+                        <viewControllerLayoutGuide type="bottom" id="ebU-cC-ivn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MsK-tf-UIB">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQx-4j-aJe">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="登陆">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="104" y="186" width="193" height="34"/>
+                                </variation>
+                                <connections>
+                                    <action selector="login:" destination="Wky-TK-nDu" eventType="touchUpInside" id="yDP-sm-TF1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQq-gL-sp1">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="注册">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="104" y="228" width="193" height="34"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="9OY-qW-PSw" kind="show" id="cgb-nj-9Kg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="zQx-4j-aJe"/>
+                                <exclude reference="cQq-gL-sp1"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="zQx-4j-aJe"/>
+                                <include reference="cQq-gL-sp1"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="登陆" id="7So-ag-r5q">
+                        <barButtonItem key="leftBarButtonItem" title="取消" id="sad-YU-dZb">
+                            <connections>
+                                <action selector="dismiss:" destination="Wky-TK-nDu" id="duH-QJ-u0i"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rOR-Qb-dPO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="243" y="387"/>
+        </scene>
+        <!--注册-->
+        <scene sceneID="rSS-o4-2A7">
+            <objects>
+                <viewController storyboardIdentifier="RegistViewController" id="9OY-qW-PSw" customClass="RegistViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="680-Jj-rxm"/>
+                        <viewControllerLayoutGuide type="bottom" id="MJU-yD-eWG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2AP-KM-bsF">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D87-Lb-exE">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="提交">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="177" y="285" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="submit:" destination="9OY-qW-PSw" eventType="touchUpInside" id="5fh-nG-Quo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="D87-Lb-exE"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="D87-Lb-exE"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="注册" id="aPl-8V-54T"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e63-HU-F3S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1167" y="387"/>
+        </scene>
+    </scenes>
+</document>
