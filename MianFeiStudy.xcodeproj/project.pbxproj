@@ -41,7 +41,7 @@
 		8F629BC01AF3569900041A03 /* Index0.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F629BA11AF3569900041A03 /* Index0.storyboard */; };
 		8F629BC21AF3569900041A03 /* Index0ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F629BA51AF3569900041A03 /* Index0ViewController.m */; };
 		8F629BC31AF3569900041A03 /* Index1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F629BA71AF3569900041A03 /* Index1.storyboard */; };
-		8F629BC41AF3569900041A03 /* Index1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F629BA91AF3569900041A03 /* Index1.m */; };
+		8F629BC41AF3569900041A03 /* Index1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F629BA91AF3569900041A03 /* Index1ViewController.m */; };
 		8F629BC51AF3569900041A03 /* Index2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F629BAB1AF3569900041A03 /* Index2.storyboard */; };
 		8F629BC61AF3569900041A03 /* Index2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F629BAD1AF3569900041A03 /* Index2ViewController.m */; };
 		8F629BC71AF3569900041A03 /* Index3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F629BAF1AF3569900041A03 /* Index3.storyboard */; };
@@ -130,8 +130,8 @@
 		8F629BA41AF3569900041A03 /* Index0ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Index0ViewController.h; sourceTree = "<group>"; };
 		8F629BA51AF3569900041A03 /* Index0ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Index0ViewController.m; sourceTree = "<group>"; };
 		8F629BA71AF3569900041A03 /* Index1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Index1.storyboard; sourceTree = "<group>"; };
-		8F629BA81AF3569900041A03 /* Index1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Index1.h; sourceTree = "<group>"; };
-		8F629BA91AF3569900041A03 /* Index1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Index1.m; sourceTree = "<group>"; };
+		8F629BA81AF3569900041A03 /* Index1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Index1ViewController.h; sourceTree = "<group>"; };
+		8F629BA91AF3569900041A03 /* Index1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Index1ViewController.m; sourceTree = "<group>"; };
 		8F629BAB1AF3569900041A03 /* Index2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Index2.storyboard; sourceTree = "<group>"; };
 		8F629BAC1AF3569900041A03 /* Index2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Index2ViewController.h; sourceTree = "<group>"; };
 		8F629BAD1AF3569900041A03 /* Index2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Index2ViewController.m; sourceTree = "<group>"; };
@@ -457,8 +457,8 @@
 			isa = PBXGroup;
 			children = (
 				8F629BA71AF3569900041A03 /* Index1.storyboard */,
-				8F629BA81AF3569900041A03 /* Index1.h */,
-				8F629BA91AF3569900041A03 /* Index1.m */,
+				8F629BA81AF3569900041A03 /* Index1ViewController.h */,
+				8F629BA91AF3569900041A03 /* Index1ViewController.m */,
 			);
 			path = Index1;
 			sourceTree = "<group>";
@@ -701,7 +701,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F629BC41AF3569900041A03 /* Index1.m in Sources */,
+				8F629BC41AF3569900041A03 /* Index1ViewController.m in Sources */,
 				8F629B8F1AF3568F00041A03 /* MartinLiPageScrollView.m in Sources */,
 				8F629BE31AF35CBF00041A03 /* UserInfo.m in Sources */,
 				8F629BFB1AF363E600041A03 /* UIScrollView+Extension.m in Sources */,

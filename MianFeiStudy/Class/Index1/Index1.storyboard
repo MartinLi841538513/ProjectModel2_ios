@@ -4,11 +4,12 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
-        <!--直播-->
+        <!--Item-->
         <scene sceneID="tD2-EV-Imt">
             <objects>
                 <navigationController storyboardIdentifier="Index1Nav" id="Ip2-8d-AoW" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="直播" id="UOO-vU-w2b"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="OSO-Es-YZV"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="GrH-Pf-9Ez">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -21,10 +22,10 @@
             </objects>
             <point key="canvasLocation" x="-1306.5" y="268"/>
         </scene>
-        <!--View Controller-->
+        <!--Index1 View Controller-->
         <scene sceneID="uM7-zV-eGD">
             <objects>
-                <viewController id="vip-Tn-3Yw" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Index1ViewController" id="vip-Tn-3Yw" customClass="Index1ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xPb-hJ-FwR"/>
                         <viewControllerLayoutGuide type="bottom" id="ZqR-4I-a9B"/>

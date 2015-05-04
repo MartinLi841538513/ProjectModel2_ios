@@ -23,10 +23,10 @@
             </objects>
             <point key="canvasLocation" x="-1306.5" y="-490"/>
         </scene>
-        <!--Item-->
+        <!--首页-->
         <scene sceneID="rOS-RV-JMG">
             <objects>
-                <viewController storyboardIdentifier="IndexViewController" id="4h0-Ns-jJu" customClass="Index0ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Index0ViewController" id="4h0-Ns-jJu" customClass="Index0ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L8k-Pb-d99"/>
                         <viewControllerLayoutGuide type="bottom" id="Tk0-FV-vKZ"/>
@@ -245,7 +245,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="GbU-qB-OZs"/>
+                    <tabBarItem key="tabBarItem" title="首页" id="GbU-qB-OZs"/>
                     <navigationItem key="navigationItem" id="0rz-Se-qnx">
                         <barButtonItem key="leftBarButtonItem" image="icon_menu.png" id="me2-Uf-Wvf">
                             <connections>

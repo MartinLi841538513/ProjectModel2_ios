@@ -6,13 +6,13 @@
 //  Copyright (c) 2015年 Martin. All rights reserved.
 //
 
-#import "Index1.h"
+#import "Index1ViewController.h"
 
-@interface Index1 ()
+@interface Index1ViewController ()
 
 @end
 
-@implementation Index1
+@implementation Index1ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
